@@ -9,10 +9,14 @@
 </head>
 <body>
     <section>
-        <div class="entrada">Digite um número para saber a tabuada</div>
-        <input type="number" name="num" id="txtnum">
-        <button onclick="tabuada()">OK</button>
-        <div id="resultado">Aqui vai o resultado</div>
+        <div class="entrada">
+            <p>Digite um número para saber a tabuada</p>
+            <input type="number" name="num" id="txtnum" placeholder="NÚMERO">
+            <button onclick="tabuada()">OK</button>
+        </div>
+        <div class="saida">
+            <select name="tabuada" id="seltab" size="11"></select>
+        </div>
     </section>
 
     <script src="script.js"></script>
